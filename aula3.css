@@ -1,0 +1,21 @@
+p{
+  margin: 1em 3em 1em 7em;
+  text-align:justify;
+}
+
+.apagadinho {
+ color: #CECECE;
+}
+
+.um_link {
+ padding: 0 1em 0 5em;
+}
+
+p.apagadinho {
+  background-color: blue;
+}
+
+#meu_id{
+  padding: 2em;
+  background-color: black;
+}
