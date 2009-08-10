@@ -1,0 +1,18 @@
+Repositório só para armazenar aulas internas
+sobre HTML. Faremos um passo a passo criando
+arquivos que vão adicionando funcionalidade.
+
+Aula 1)
+Primeira aula. Mostrando a sintaxe básica HTML,
+criando cabeçalho, tipo de caracter utilizado (charset),
+tipo de página (text/html) e colocando um título e
+usando uma tag simples - parágrafo.
+
+Aula 2)
+Começando a estilizar, usando estilo inline, dentro
+da página.
+
+Aula 3)
+Introduzindo o css, como estilizar uma tag padrão
+(no caso parágrafo), como usar classes e ids para
+estilizar uma página
