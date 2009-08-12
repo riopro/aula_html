@@ -1,0 +1,127 @@
+<html>
+<header>
+  <meta content='text/html; charset=utf-8' http-equiv='Content-type' />
+  <title>
+  Aula 4 - div's, span's e elementos block (bloco) e inline
+  </title>
+  <LINK REL="STYLESHEET" HREF="aula4.css" TYPE="text/css">
+</header>
+<body>
+<div>
+<p>
+elementos html são compostos de tags de abertura e fechamento (como, por
+exemplo um link ou um parágrafo), ou apenas uma tag que possui uma / 
+no final (caso do elemento img).
+</p>
+<p>
+Por padrão, se nada for modificado via css, um div, assim como todo elemento
+block (bloco) ocupará toda largura disponível para o mesmo. O mesmo não acontece
+com objetos inline como <a href="http://riopro.com.br">esse link (elemento &lt;a&gt;)</a> 
+ou <span class="realce">esse span (elemento)</span>.
+</p>
+<p>
+São exemplos de elementos block:
+<ol>
+<li>
+&lt;div&gt;
+</li>
+<li>
+&lt;p&gt;
+</li>
+<li>
+&lt;ul&gt; (lista simples)
+</li>
+<li>
+&lt;ol&gt; (lista numerada, como essa)
+</li>
+<li>
+&lt;table&gt;
+</li>
+</ol>
+<p>
+São exemplos de elementos inline:
+</p>
+<ul>
+<li>
+&lt;a&gt;
+</li>
+<li>
+&lt;img&gt;
+</li>
+<li>
+&lt;span&gt;
+</li>
+<li>
+&lt;input&gt;
+</li>
+<li>
+&lt;select&gt;
+</li>
+<li>
+&lt;label&gt;
+</li>
+<li>
+&lt;abbr&gt;
+</li>
+<li>
+&lt;textarea&gt;
+</li>
+</ul>
+<span class="blocado">
+Mas, é importante saber que elementos inline podem ser transformados em bloco, como esse
+&lt;span&gt; que você está vendo aqui.
+</span>
+</div>
+<div>
+Esse <a class="blocado">link que passou a ocupar
+uma linha inteira porque está blocado</a> e as outras coisas ficam para a próxima linha.
+</div>
+<div class="esquerda">
+<p>
+Ou elementos de bloco podem ser floateados
+<br/>
+para ocupar apenas uma parte do espaço,
+<br/>
+como nesse div que está com float:left.
+</p>
+</div>
+<div class="esquerda">
+<p>
+Dessa forma, mais de um div pode ficar 
+<br/>
+em um mesmo espaço vertical.
+</p>
+</div>
+<div class="direita">
+Eu posso também ter um div
+<br/>
+floateado para a direita,
+<br/>
+mas na mesma linha.
+</div>
+<div style="clear:both;"></div>
+<div class="direita">
+Uma coisa engraçada para quem vê o fonte
+<br/>
+é que float:right; inverte a ordem de 
+<br/>
+exibição dos div's na tela.
+</div>
+<div class="direita">
+um
+<br/>
+&lt;div style="clear:both;"&gt;&lt;/div&gt;
+<br/>
+separando as "linhas".
+</div>
+<div class="direita">
+Já para colocar esses 3 divs aqui
+<br/>
+eu tive que colocar
+</div>
+<div style="clear:both;"></div>
+<div>
+Espero que tenha sido útil essa aula...
+</div>
+</body>
+</html>

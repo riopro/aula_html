@@ -1,0 +1,26 @@
+div{
+  background-color: #CDF9CB;
+  margin-top: 0.5em;
+}
+
+.realce{
+  font-weight: bold;
+}
+
+.blocado{
+  display: block;
+  background-color: #94C6E3;
+}
+
+.esquerda{
+  margin: 0.2em;
+  float: left;
+  background-color: #C2CACF;
+}
+
+.direita{
+  margin: 0.2em;
+  float: right;
+  background-color: #AF4165;
+  color: #fff;
+}
