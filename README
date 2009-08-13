@@ -26,3 +26,8 @@ Falando sobre elementos block e elementos inline,
 e explicando/demonstrando o uso de div's e span's,
 e principalmente mostrando como modificar, via css
 tags block para agir como inline e vice-versa.
+
+Nessa aula, vimos também que quando um div é floateado
+left ou right, o div mais a esquerda será sempre o primeiro,
+e o mais a direita sempre o último. Isso é intuitivo para
+float left, mas é contra-intuitivo para float right.
