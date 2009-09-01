@@ -1,4 +1,44 @@
-.sem_bullet{
-  margin: 1em 3em 1em 7em;
-  text-align:justify;
+ul.sem_bullet li{
+  list-style: none;
+}
+
+ul.lista_inline li{
+  list-style: none;
+  display: inline;
+  border: 1px solid gray;
+}
+
+ul.menu_estilizado li{
+  list-style: none;
+  display: inline;
+  border: 1px solid gray;
+  padding: 1em;
+}
+
+div.menu_estilizado_final {
+  float: left;
+}
+
+.menu_estilizado_final ul{
+  padding : 1em;
+  border: 1px solid gray;
+  background-color: #EFEFEF;
+}
+
+.menu_estilizado_final li{
+  margin: 0;
+  list-style: none;
+  display: inline;
+}
+
+.menu_estilizado_final a {
+  padding: 1em;
+  margin: 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu_estilizado_final a:hover {
+  background-color: gray;
+  color: white;
 }
